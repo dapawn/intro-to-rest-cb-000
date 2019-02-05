@@ -5,6 +5,20 @@
   </head>
   <body>
     <main id="main">
+    <p>
+    You open the page that has the blank form that you use to make a new newsletter. In terms of REST, this page represents a request for a new resource.
+
+You fill out the form on the 'New Newsletter' page and click submit. Information about you, your newsletter content and any additional information such as media items are all sent to the application server. The server takes all this information and saves it to the database, creating your newsletter. RESTfully speaking, this server action is create resource.
+
+After the server saves your newsletter, it redirects you to the page where you can view your newly-created newsletter. This is show resource in a RESTful system.
+
+You decide you want to change the title of your newsletter, so you browse to the page that has the filled-in, editable form for your newsletter. Requesting this page is requesting to edit resource.
+
+You change the title and submit the form. On the server, the new information is applied to your newsletter record. This action is update resource.
+
+Finally, you want to browse all the newsletters to see what else you could subscribe to. Asking for the list of all newsletters is asking for the index of the resource.
+
+    </p>
     </main>
     <script src="index.js"></script>
   </body>
